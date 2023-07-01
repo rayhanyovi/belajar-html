@@ -1,0 +1,72 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Bookshelf App</title>
+  </head>
+  <body>
+    <nav>
+      <h1>Bookshelf App</h1>
+    </nav>
+
+    <main>
+      <br />
+      <div id="input-book">
+        <h1>Masukkan Buku Baru</h1>
+        <h4>Judul</h4>
+        <input
+          placeholder="Masukkan judul buku"
+          type="text"
+          name="judul"
+          id="judul" />
+        <h4>Penulis</h4>
+        <input
+          placeholder="Masukkan nama penulis buku"
+          type="text"
+          name="penulis"
+          id="penulis" />
+        <h4>Tahun</h4>
+        <input
+          placeholder="Masukkan tahun terbit buku"
+          type="number"
+          name="tahun"
+          id="tahun" />
+
+        <div id="checkbox-container">
+          <label for="isComplete">Telah dibaca</label>
+          <input type="checkbox" name="isComplete" id="isComplete" />
+        </div>
+
+        <button id="submitbuku" type="submit">TAMBAHKAN</button>
+      </div>
+      <div id="search-book">
+        <h1>Cari Buku</h1>
+        <div id="searchbar">
+          <input
+            placeholder="Masukkan judul, penulis, atau tahun terbit buku..."
+            type="text"
+            name="keyword"
+            id="keyword" />
+          <button id="caribuku">Cari</button>
+        </div>
+      </div>
+
+      <div class="bookshelf">
+        <h1>Sedang Dibaca</h1>
+        <div id="currentBooks"></div>
+      </div>
+
+      <div class="bookshelf">
+        <h1>Telah dibaca</h1>
+        <div id="doneBooks"></div>
+      </div>
+    </main>
+
+    <footer>Muhammad Rayhan Yovi, 2023</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

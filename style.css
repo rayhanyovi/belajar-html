@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: navy;
+  padding: 10px;
+}
+
+nav h1 {
+  text-align: center;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#input-book {
+  border-radius: 10px;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  width: 400px;
+  padding: 24px 24px;
+}
+
+#input-book h1 {
+  text-align: center;
+  font-size: 18;
+}
+#input-book input {
+  margin: 0 0 10px 0;
+}
+
+#input-book button {
+  background-color: navy;
+  color: white;
+  margin-top: 10px;
+  padding: 4px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#search-book {
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  width: 400px;
+  padding: 24px 24px;
+}
+
+#search-book h1 {
+  text-align: center;
+  font-size: 18;
+}
+
+#searchbar {
+  margin: 15px 0 8px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#searchbar input {
+  height: 30px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+#searchbar input::placeholder {
+  font-size: 10px;
+}
+
+#searchbar button {
+  align-items: center;
+  height: 30px;
+  background-color: navy;
+  color: white;
+  width: 40%;
+  border-radius: 0 10px 10px 0;
+  padding: 4px;
+  font-weight: bold;
+}
+
+.bookshelf {
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  width: 400px;
+  padding: 24px 24px;
+}
+
+.bookshelf h1 {
+  text-align: center;
+  font-size: 18;
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 20px 0;
+  font-weight: bold;
+  color: white;
+  background-color: navy;
+  margin-top: 40px;
+  text-align: center;
+}
+
+#checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+#checkbox-container label {
+  align-items: flex-start;
+  margin-right: 10px;
+}
+
+#isComplete {
+  display: flex;
+  align-items: center;
+}
+#checkbox-container input[type="checkbox"] {
+  margin: 0;
+}
+
+.book-item {
+  border: 1px solid rgb(207, 207, 207);
+  padding: 10px;
+  border-radius: 10px;
+}
